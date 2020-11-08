@@ -1,0 +1,280 @@
+
+/* header */
+.header-logo-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.logo-are{
+    text-align: left;
+}
+
+.g-nav{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    margin-left: 50px;  
+    justify-content: space-between;  
+    list-style: none;
+    
+}
+
+
+
+/* メインビジュアル */
+.main-visual{
+    text-align: center;
+    background-image: url(../img/mainbg.png);
+    height: 380px;
+    width: 1200px;
+    color: white;
+    padding-top: 100px;
+    object-fit: cover;
+    margin: 50px;
+}
+
+.main-visual p{
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 100px;    
+}
+
+/* About */
+
+.about{
+    text-align: center;
+    font-size: 16px;
+    margin: 60px;
+}
+
+.a2{    
+    color: #ffd61a;
+    font-size: 24px;
+}
+.p1{
+    margin-top: 30px;
+}
+.p2{
+    margin-top: 60px;
+}
+
+
+
+
+/* 写真の中央配置ができないのはなぜ？ */
+.photo4{
+white-space: nowrap;
+float: left;
+width: 1200px;
+margin-top: 80px;
+margin-bottom: 60px;
+}
+
+
+/* course */
+.course-info{
+    text-align: center;
+}
+.c-text{
+    font-size: 24px;
+}
+
+/* 教えてもらったコード 
+.contents{
+    display: flex;
+}
+.box-image{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box-text{
+    flex: 1;*/
+
+
+
+/* 画像左　文章右のコードをbox1とする */
+.box1{
+    display: flex;
+}
+
+.box-img1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box-text1{
+    flex: 1;
+    text-align: left;
+    margin-left: 50px;
+    width: 480px;
+  }
+
+  /* 左文章　右画像のコード を2とする*/
+  
+  .box2{
+    display: flex;
+}
+
+.box-img2{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-right: 50px;
+}
+
+.box-text2{
+    flex: 1;
+    text-align: center;
+    margin-right: 50px;
+    width: 480px;
+  }
+  
+  /* 3 */
+
+  .box3{
+    display: flex;
+}
+
+.box-img3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.box-text3{
+    flex: 1;
+    text-align: left;
+    margin-left: 50px;
+    width: 480px;
+  }
+  /* 同じcss なのに文字の大きさが異なるのはなぜ？ */
+
+
+/* NEWS */
+.news-area{
+    text-align: center;
+}
+
+.news-t{
+    color: #ffd61a;
+    font-size: 24px;
+}
+.item{
+    white-space: nowrap;
+    float:left;
+    width: 300px;
+}
+.grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* more */
+.more{
+    display: flex;
+    background-color: #ffd61a;
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+
+
+/* access */
+.access-t{
+    font-size: 24px;
+}
+.access{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* 地図の横幅 */
+.location-map{
+    width: 100%;
+}
+
+
+.address-detail{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    text-align: left;
+    table-layout: auto;
+}
+    
+
+
+
+    /* コンタクト */
+    .contact{
+        text-align: center;
+        font-size: 16px;
+    }
+    .c-title{
+        font-size: 24px;
+        margin: 60px;
+        
+    }
+
+/* フォームの命令 */
+
+
+.dl{
+    margin: 0 auto;
+    width: 640px;
+}
+
+.form-item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    text-align: left;
+    border-top: 1px solid #bfbfbf;
+}
+
+.dt{width: 240px;}
+.dd{width: 400px;}
+.label-chack{
+    margin: 24px;
+}
+
+
+
+.form-submit{
+    text-align: center;
+    display: flex;
+    background-color: #ffd61a;
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+/* フッター完成 */
+
+.ft{background-color: #707070;
+width: 1200px; 
+padding: 30px;
+text-align: center;
+color: white;}
+
+
